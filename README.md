@@ -1,4 +1,16 @@
+# IQ Calculator written in Elm
+
 Non-scientific calculator of your intelligence quotient (IQ) based on random factors.
+
+## Development
+
+Produce HTML website
+
+```
+elm make --optimize --output=docs/index.html src/Main.elm
+```
+
+# Idea
 
 - Color
   - Red
@@ -33,8 +45,8 @@ We should be done with this in no time...
 
 Applying some randomness...
 
-# Lists
+# Libraries
 
-```elm
-furniture = ["Table", "Chair", "Bed", "Cupboard"]
-```
+For rendering
+
+- https://package.elm-lang.org/packages/lucamug/style-framework/
